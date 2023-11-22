@@ -1,0 +1,50 @@
+body#tl_body {
+    background-color: cornflowerblue;
+    
+    #trafficLight {
+        background-color: rgb(76, 76, 76);
+        margin: 0 auto;
+        width: 400px;
+        height: 700px;
+        border-radius: 50px;
+        margin-block: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+
+        #redLight {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 15px solid rgb(37, 37, 37);
+        }
+
+        #yellowLight {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 15px solid rgb(37, 37, 37);
+        }
+
+        #greenLight {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border-top: 15px solid rgb(37, 37, 37);
+        }
+
+        .red {
+            background: red;
+        }
+        
+        .yellow {
+            background: yellow;
+        }
+        
+        .green {
+            background: green;
+        }
+    }
+}
